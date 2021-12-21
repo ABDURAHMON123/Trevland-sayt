@@ -1,0 +1,135 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 956px) {
+    .container {
+        padding: 0 20px;
+    }
+    ul li a {
+        font-size: 15px;
+    }
+    .header__content__text {
+        width: 80%;
+    }
+    .header__content h1 {
+        font-size: 55px;
+    }
+    .header__content p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 955.99px) and (min-width: 756px) {
+    .container {
+        padding: 0 20px;
+    }
+    .header__blocks {
+        width: 100%;
+        background-image: url(images/header\ backround\ image.png);
+        background-position: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    .header__menu {
+        margin-bottom: 100px;
+    }
+    ul li a {
+        font-size: 14px;
+    }
+    .Header__booknow a {
+        font-size: 14px;
+    }
+    .header__content__text {
+        width: 90%;
+    }
+    .header__content h1 {
+        font-size: 48px;
+    }
+    .header__content p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 755.99px) and (min-width: 512px) {
+    .container {
+        padding: 0 20px;
+    }
+    .header__blocks {
+        width: 100%;
+        background-image: url(images/header\ backround\ image.png);
+        background-position: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    .header__menu {
+        margin-bottom: 100px;
+        margin-top: 30px;
+    }
+    ul,
+    .Header__booknow {
+        display: none;
+    }
+    .menu__img img {
+        width: 200px;
+    }
+    .fa-align-justify {
+        display: block;
+        font-size: 40px;
+        cursor: pointer;
+    }
+    .header__content__text {
+        width: 90%;
+    }
+    .header__content h1 {
+        font-size: 48px;
+    }
+    .header__content p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 511.99px) and (min-width: 300px) {
+    .container {
+        padding: 0 20px;
+    }
+    .header__blocks {
+        width: 100%;
+        background-image: url(images/header\ backround\ image.png);
+        background-position: 80%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    .header__menu {
+        margin-bottom: 80px;
+        margin-top: 30px;
+    }
+    ul,
+    .Header__booknow {
+        display: none;
+    }
+    .menu__img img {
+        width: 150px;
+    }
+    .fa-align-justify {
+        display: block;
+        font-size: 35px;
+        cursor: pointer;
+    }
+    .header__content__text {
+        width: 100%;
+    }
+    .header__content h1 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .header__content p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+}

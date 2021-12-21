@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&family=Roboto:wght@400;700;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.fa-align-justify {
+    display: none;
+}
+
+.header__blocks {
+    width: 100%;
+    background-image: url(images/header\ backround\ image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.mobile__menu {
+    width: 300px;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    border-radius: 10px 0 0 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    animation-name: mobileborder;
+    animation-delay: 0;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition: 2s;
+    transform: translatey(-100%);
+}
+
+@keyframes mobileborder {
+    0% {
+        border: 1px solid yellow;
+    }
+    25% {
+        border: 1px solid red;
+    }
+    50% {
+        border: 1px solid purple;
+    }
+    75% {
+        border: 1px solid greenyellow;
+    }
+    100% {
+        border: 1px solid white;
+    }
+}
+
+.mobile__logo img {
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.mobile__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.mobile__text a {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.mobile__text a:hover {
+    border-bottom: 1px solid white;
+}
+
+.fa-close {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.fa-close:hover {
+    color: red;
+}
+
+.header__block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.header__menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+ul li a {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+ul li a:hover {
+    border-bottom: 1px solid white;
+}
+
+.Header__booknow a {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 15px 30px;
+    background-color: #C9453B;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: .5s;
+}
+
+.Header__booknow a:hover {
+    background-color: white;
+    color: #C9453B;
+}
+
+.header__menu {
+    margin-bottom: 150px;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.header__content__text {
+    width: 66%;
+}
+
+.header__content h1 {
+    font-family: Gelasio;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.header__content p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: .6;
+    width: 55%;
+    padding-bottom: 50px;
+}
+
+.header__content a {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 15px 40px;
+    background-color: #C9453B;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: .5s;
+}
+
+.header__content a:hover {
+    background-color: white;
+    color: #C9453B;
+}
