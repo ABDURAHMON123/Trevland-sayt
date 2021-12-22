@@ -38,7 +38,7 @@ ul {
     width: 300px;
     height: 100%;
     background-color: black;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     z-index: 100;
@@ -51,7 +51,7 @@ ul {
     animation-delay: 0;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    transition: 2s;
+    transition: 1.5s;
     transform: translatey(-100%);
 }
 
@@ -120,6 +120,7 @@ ul {
     flex-direction: column;
     align-items: center;
     color: white;
+    margin-bottom: 200px;
 }
 
 .header__menu {
@@ -229,4 +230,110 @@ ul li a:hover {
 .header__content a:hover {
     background-color: white;
     color: #C9453B;
+}
+
+
+/* popular block
+================================= */
+
+.popular__blocks {
+    width: 100%;
+}
+
+.popular__block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popular__top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.popular__top h1 {
+    font-family: Gelasio;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.popular__top p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 60%;
+}
+
+.popular__cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.popular__card1,
+.popular__card2,
+.popular__card3 {
+    width: 360px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+
+.popular__card1 img,
+.popular__card2 img,
+.popular__card3 img {
+    width: 100%;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.popular__card1 img:hover,
+.popular__card2 img:hover,
+.popular__card3 img:hover {
+    opacity: .8;
+    transition: .5s;
+}
+
+.popular__card1__text,
+.popular__card2__text,
+.popular__card3__text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popular__cards h1 {
+    font-family: Gelasio;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.popular__cards p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
 }

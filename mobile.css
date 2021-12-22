@@ -20,6 +20,27 @@
     .header__content p {
         font-size: 17px;
     }
+    /* popular block
+    ================================= */
+    .popular__top h1 {
+        font-size: 40px;
+    }
+    .popular__top p {
+        font-size: 16px;
+    }
+    .popular__card1,
+    .popular__card2,
+    .popular__card3 {
+        width: 280px;
+        height: 420px;
+    }
+    .popular__cards h1 {
+        font-size: 24px;
+        padding-bottom: 7px;
+    }
+    .popular__cards p {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 955.99px) and (min-width: 756px) {
@@ -33,6 +54,9 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
+    }
+    .header__block {
+        margin-bottom: 300px;
     }
     .header__menu {
         margin-bottom: 100px;
@@ -52,6 +76,30 @@
     .header__content p {
         font-size: 16px;
     }
+    /* popular block
+    ================================= */
+    .popular__top h1 {
+        font-size: 40px;
+    }
+    .popular__top p {
+        font-size: 15px;
+    }
+    .popular__card1,
+    .popular__card2,
+    .popular__card3 {
+        width: 220px;
+        height: 350px;
+    }
+    .popular__cards h1 {
+        font-size: 20px;
+        padding-bottom: 7px;
+        line-height: 30px;
+    }
+    .popular__cards p {
+        font-size: 12px;
+        line-height: 21px;
+        width: 180px;
+    }
 }
 
 @media screen and (max-width: 755.99px) and (min-width: 512px) {
@@ -65,6 +113,9 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
+    }
+    .header__block {
+        margin-bottom: 150px;
     }
     .header__menu {
         margin-bottom: 100px;
@@ -91,6 +142,34 @@
     .header__content p {
         font-size: 16px;
     }
+    /* popular block
+    ================================= */
+    .popular__top h1 {
+        font-size: 40px;
+    }
+    .popular__top p {
+        font-size: 15px;
+    }
+    .popular__cards {
+        flex-direction: column;
+    }
+    .popular__card1,
+    .popular__card2,
+    .popular__card3 {
+        width: 300px;
+        height: 450px;
+        margin-bottom: 50px;
+    }
+    .popular__cards h1 {
+        font-size: 25px;
+        padding-bottom: 7px;
+        line-height: 30px;
+    }
+    .popular__cards p {
+        font-size: 16px;
+        line-height: 28px;
+        width: 250px;
+    }
 }
 
 @media screen and (max-width: 511.99px) and (min-width: 300px) {
@@ -104,6 +183,9 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
+    }
+    .header__block {
+        margin-bottom: 250px;
     }
     .header__menu {
         margin-bottom: 80px;
@@ -131,5 +213,34 @@
     .header__content p {
         font-size: 12px;
         line-height: 25px;
+    }
+    /* popular block
+    ================================= */
+    .popular__top h1 {
+        font-size: 30px;
+    }
+    .popular__top p {
+        font-size: 15px;
+        width: 100%;
+    }
+    .popular__cards {
+        flex-direction: column;
+    }
+    .popular__card1,
+    .popular__card2,
+    .popular__card3 {
+        width: 250px;
+        height: 400px;
+        margin-bottom: 50px;
+    }
+    .popular__cards h1 {
+        font-size: 22px;
+        padding-bottom: 7px;
+        line-height: 30px;
+    }
+    .popular__cards p {
+        font-size: 14px;
+        line-height: 28px;
+        width: 250px;
     }
 }
