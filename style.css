@@ -337,3 +337,131 @@ ul li a:hover {
     letter-spacing: 0em;
     text-align: center;
 }
+
+
+/* spacial block
+============================ */
+
+.special__blocks {
+    width: 100%;
+}
+
+.speacial__block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.special__top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.special__top h1 {
+    font-family: Gelasio;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.special__top p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 700px;
+}
+
+.special__cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.special__cards h1 {
+    font-family: Gelasio;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.special__cards p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.special__cards1,
+.special__cards2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.special__card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.special__card:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.special__card__texts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.special__card__location {
+    display: flex;
+}
+
+.special__card__location p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0 5px;
+}
+
+.special__card__location img {
+    width: 15px;
+    height: 20px;
+}
+
+.location1,
+.location2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 5px 10px 0px;
+}

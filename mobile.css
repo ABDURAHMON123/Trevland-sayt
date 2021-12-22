@@ -41,6 +41,24 @@
     .popular__cards p {
         font-size: 14px;
     }
+    /* special block
+    ================================= */
+    .special__top h1 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    .special__top p {
+        font-size: 17px;
+    }
+    .special__card {
+        width: 200px;
+    }
+    .special__cards h1 {
+        font-size: 21px;
+    }
+    .special__cards p {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 955.99px) and (min-width: 756px) {
@@ -99,6 +117,30 @@
         font-size: 12px;
         line-height: 21px;
         width: 180px;
+    }
+    /* special block
+    ================================= */
+    .special__top h1 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    .special__top p {
+        font-size: 17px;
+    }
+    .special__card {
+        width: 160px;
+    }
+    .special__cards h1 {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+    .special__cards p {
+        font-size: 13px;
+        padding-bottom: 5px;
+    }
+    .location1,
+    .location2 {
+        margin: 0px 5px 5px 0px;
     }
 }
 
@@ -169,6 +211,39 @@
         font-size: 16px;
         line-height: 28px;
         width: 250px;
+    }
+    /* special block
+    ================================= */
+    .special__top h1 {
+        font-size: 32px;
+        padding-bottom: 20px;
+    }
+    .special__top p {
+        font-size: 15px;
+        width: 400px;
+    }
+    .special__cards {
+        flex-direction: column;
+    }
+    .special__card {
+        width: 200px;
+        margin: 10px;
+    }
+    .special__cards1,
+    .special__cards2 {
+        width: 100%;
+    }
+    .special__cards h1 {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+    .special__cards p {
+        font-size: 13px;
+        padding-bottom: 5px;
+    }
+    .location1,
+    .location2 {
+        margin: 0px 5px 5px 0px;
     }
 }
 
@@ -242,5 +317,42 @@
         font-size: 14px;
         line-height: 28px;
         width: 250px;
+    }
+    /* special block
+    ================================= */
+    .special__top {
+        margin-bottom: 50px;
+    }
+    .special__top h1 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    .special__top p {
+        font-size: 12px;
+        width: 100%;
+    }
+    .special__cards {
+        flex-direction: column;
+    }
+    .special__card {
+        width: 90%;
+        margin: 10px;
+    }
+    .special__cards1,
+    .special__cards2 {
+        width: 100%;
+        flex-direction: column;
+    }
+    .special__cards h1 {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+    .special__cards p {
+        font-size: 13px;
+        padding-bottom: 5px;
+    }
+    .location1,
+    .location2 {
+        margin: 0px 5px 5px 0px;
     }
 }
