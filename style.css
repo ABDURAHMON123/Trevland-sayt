@@ -465,3 +465,144 @@ ul li a:hover {
     justify-content: space-between;
     margin: 0px 5px 10px 0px;
 }
+
+
+/* from block
+=============================== */
+
+.from__blocks {
+    width: 100%;
+}
+
+.from__block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.from__top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.from__top h1 {
+    font-family: Gelasio;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.from__top p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 60%;
+}
+
+.from__cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.from__big__card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 50%;
+}
+
+.from__big__card h1 {
+    font-family: Gelasio;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 15px 0 10px 0;
+}
+
+.from__big__card p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.from__big__card a {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+
+.from__small__cards {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.small__card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.small__texts {
+    width: 40%;
+    margin-left: 30px;
+}
+
+.from__small__cards h1 {
+    font-family: Gelasio;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0px 0 10px 0;
+}
+
+.from__small__cards p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.from__small__cards a {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
